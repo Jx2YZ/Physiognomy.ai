@@ -1,0 +1,48 @@
+camera:
+  index: 0
+  width: 640
+  height: 480
+
+engine:
+  hold_frames: 6              # default consecutive-frame confirm
+  cooldown_seconds: 4.0       # default per-trigger cooldown
+  idle_seconds: 5.0           # stillness required for `neutral`
+  motion_window_seconds: 1.2  # six_seven sliding window
+
+popups:
+  display_seconds: 3.5
+  max_popups: 5
+  max_screen_fraction: 0.40
+  min_screen_fraction: 0.20   # upscale tiny media (e.g. 165px GIFs) to at least this
+
+thresholds:                   # distances are x interocular distance (IOD)
+  tongue_out: 0.12
+  eye_squint: 0.35
+  smile_band: [0.05, 0.60]
+  finger_bite_distance: 0.30
+  finger_bite_jaw: [0.15, 0.60]
+  fist_mouth_distance: 0.75
+  lip_pull_distance: 0.30
+  lip_pull_lower_down: 0.30
+  pray_hands_distance: 0.50
+  pray_mouth_distance: 0.50
+  six_seven_amplitude: 0.60
+  six_seven_reversals: 3      # "more than 2" up-down shifts per hand
+  hands_up_max_speed: 0.15    # IOD per frame
+  head_shake_amplitude: 0.35      # nose-tip x swing, x IOD
+  head_shake_reversals: 4         # ~3 full left-right shakes
+  head_shake_window_seconds: 2.5  # shakes must all land inside this window
+
+gestures:
+  head_shake:       { meme: assets/tongue_out.gif }
+  nerd:             { meme: assets/nerd.jpg }
+  thumbs_up:        { meme: assets/thumbs-up.png }
+  squint_smile:     { meme: assets/squint_smile.jpg }
+  fist_cover_mouth: { meme: assets/fist_cover_mouth.jpg }
+  lip_pull:         { meme: assets/lip_pull.jpg }
+  hands_up:         { meme: assets/hands_up.jpg }
+  pray:             { meme: assets/pray.gif,             hold_frames: 4 }
+  six_seven:        { meme: assets/six_seven.gif }
+  double_guns:      { meme: assets/double_guns.jpg,      clears_all: true }
+
+combos: []   # engine supports combos; none in v1

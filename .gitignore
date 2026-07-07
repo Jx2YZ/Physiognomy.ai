@@ -1,0 +1,16 @@
+memes/*
+!memes/.gitkeep
+
+models/*
+!models/.gitkeep
+
+__pycache__/
+*.pyc
+build/
+dist/
+venv/
+.venv/
+*.egg-info/
+.DS_Store
+
+.claude/settings.local.json
