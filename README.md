@@ -178,10 +178,10 @@ countdown, and FPS.
 |---|---|---|
 | `head_shake` | motion | Shake your head left-right a few times (tongue-swing meme) |
 | `squint_smile` | face | Squint + a faint smile (not a full grin) |
-| `nerd` | single-hand | Index finger pointing up, other fingers curled |
+| `erm` | single-hand | Index finger pointing up, other fingers curled |
 | `thumbs_up` | single-hand | Thumb clearly up, all four fingers balled into a fist |
 | `fist_cover_mouth` | interaction | Cover your mouth with a fist |
-| `lip_pull` | interaction | Shaka-style hand (thumb + pinky out, rest balled), pinky pulls your lower lip down, teeth showing |
+| `johnny_dang` | interaction | Shaka-style hand (thumb + pinky out, rest balled), pinky pulls your lower lip down, teeth showing |
 | `hands_up` | two-hand | Both palms open, raised above your chin, held still |
 | `pray` | two-hand | Hands together near your mouth, prayer-style |
 | `double_guns` | two-hand | Both hands in a "finger gun" shape — **clears every open popup**, then shows its own meme |
