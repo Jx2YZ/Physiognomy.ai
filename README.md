@@ -209,14 +209,14 @@ for the geometry.
 main.py                    entry point
 config.yaml                camera/engine/popup/threshold/gesture config
 scripts/download_models.py MediaPipe model bundle downloader
-assets/                    the meme images/GIFs the triggers pop up
+assets/                    the images/GIFs the triggers pop up
 cam/
   camera.py                 webcam capture worker
   landmarks.py               MediaPipe HandLandmarker + FaceLandmarker wrappers
   states.py                  atomic states: finger extension, hand shape, IOD, blendshapes
   rules_face.py               tongue_out, squint_smile
-  rules_interactions.py       finger_bite, fist_cover_mouth, lip_pull
-  rules_singlehand.py         nerd, thumbs_up
+  rules_interactions.py       finger_bite, fist_cover_mouth, johnny_dang
+  rules_singlehand.py         erm, thumbs_up
   rules_twohand.py            hands_up, pray, double_guns
   rules_motion.py             six_seven, head_shake
   engine.py                  priority/suppression/hold/cooldown/idle + event queue
