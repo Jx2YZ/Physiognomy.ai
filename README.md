@@ -176,7 +176,7 @@ countdown, and FPS.
 
 | Trigger | Class | What to do |
 |---|---|---|
-| `head_shake` | motion | Shake your head left-right a few times (tongue-swing meme) |
+| `head_shake` | motion | Shake your head left-right a few times |
 | `squint_smile` | face | Squint + a faint smile (not a full grin) |
 | `erm` | single-hand | Index finger pointing up, other fingers curled |
 | `thumbs_up` | single-hand | Thumb clearly up, all four fingers balled into a fist |
