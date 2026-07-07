@@ -3,7 +3,7 @@
 > *Democratizing Facial Capital.*
 
 Your webcam watches your face and hands. Pull a face, throw a gesture, and
-the right meme pops up on screen — always on top, briefly, then gone.
+the right contextual media pops up on screen — always on top, briefly, then gone.
 Ten gestures, one terminator (`double_guns` clears everything and shows its
 own meme), 100% rule-based, 100% local.
 
